@@ -49,17 +49,15 @@
     width: 60px;
     height: 60px;
     background: red;
-    transition: width 5s, height 5s ;
+    transition: 3s ;
 }
 
 .ex-5-square:hover{
-    width: 90px;
-    height: 90px;
+    transform: scale(1.5);
 }
 
 .ex-5-square:active{
-    width:30px;
-    height: 30px;
+   transform: scale(1.5);
 }
 
 
