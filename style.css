@@ -156,3 +156,47 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: move-top-button;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes move-top-button {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    50% {
+        top: -10px;
+        left: 60%;
+    }
+
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: move-bottom-button;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes move-bottom-button {
+    0% {
+        top: -10px;
+        right: 10%;
+    }
+    50% {
+        top: -10px;
+        right: 60%;
+    }
+
+    100%{
+        top: -10px;
+        right: 10%;
+    }
+}
