@@ -72,13 +72,21 @@
 }
 
 .ex-7-img{
-    transition: 5s;
+    transition: 3s;
 }
 
 .ex-7-img:hover {
     filter: brightness(10) sepia(1);
 }
 
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 35px;
+    filter: brightness(10) sepia(1);
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
